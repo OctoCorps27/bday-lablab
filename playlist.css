@@ -1,0 +1,67 @@
+/* playlist.css */
+
+body {
+    background-color: #f8f9fa; /* Light background for the whole page */
+    color: #333; /* Dark text color */
+    font-family: 'Arial', sans-serif;
+}
+
+.playlist-container {
+    margin: 20px auto;
+    max-width: 600px; /* Center container */
+    background-color: #ffffff; /* White background for the container */
+    border-radius: 8px; /* Rounded corners */
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+    border: 2px solid #f5a623; /* Birthday color border */
+}
+
+.ui.header {
+    color: #f5a623; /* Birthday color for header */
+    font-size: 2em;
+    margin-bottom: 20px;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* Festive font */
+}
+
+.ui.list .item {
+    background: #fff6e5; /* Light background for items */
+    border-radius: 5px;
+    padding: 15px;
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+    border: 1px solid #f5a623; /* Border around items */
+}
+
+.ui.list .item:hover {
+    background: #ffe7b2; /* Hover effect */
+}
+
+.ui.list .item .music.icon {
+    color: #f5a623; /* Birthday color for icon */
+    margin-right: 15px;
+}
+
+.ui.list .item .content .header {
+    font-size: 1.1em;
+    color: #333;
+}
+
+.ui.list .item .content .description {
+    color: #666; /* Lighter grey text color */
+}
+
+.ui.menu {
+    margin-bottom: 20px; /* Spacing between menu and content */
+}
+
+.ui.menu .item {
+    color: #f5a623; /* Birthday color for menu items */
+    font-size: 1.2em; /* Larger font size for the home button */
+}
+
+.ui.menu .item:hover {
+    color: #ffffff; /* Change text color on hover */
+    background-color: #f5a623; /* Background color on hover */
+}
